@@ -8,6 +8,7 @@
 
 import SwiftUI
 
+
 struct FindView: View {
     var body: some View {
         ScrollView {
