@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0423981F29EE353C005530AD /* ItineraryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0423981E29EE353C005530AD /* ItineraryModel.swift */; };
+		0423982129EE3610005530AD /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0423982029EE3610005530AD /* UserModel.swift */; };
+		046E68BC29EE323A0004F0B3 /* Itinerary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046E68BB29EE323A0004F0B3 /* Itinerary.swift */; };
 		04EE122229E5137D006D45C3 /* tonaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EE122129E5137D006D45C3 /* tonaApp.swift */; };
 		04EE122429E5137D006D45C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EE122329E5137D006D45C3 /* ContentView.swift */; };
 		04EE122629E5137E006D45C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04EE122529E5137E006D45C3 /* Assets.xcassets */; };
@@ -14,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0423981E29EE353C005530AD /* ItineraryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryModel.swift; sourceTree = "<group>"; };
+		0423982029EE3610005530AD /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		046E68BB29EE323A0004F0B3 /* Itinerary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Itinerary.swift; sourceTree = "<group>"; };
 		04EE121E29E5137D006D45C3 /* tona.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tona.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04EE122129E5137D006D45C3 /* tonaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tonaApp.swift; sourceTree = "<group>"; };
 		04EE122329E5137D006D45C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -33,6 +39,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0423981D29EE3523005530AD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0423981E29EE353C005530AD /* ItineraryModel.swift */,
+				0423982029EE3610005530AD /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		046E68B829EE31F20004F0B3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				046E68BB29EE323A0004F0B3 /* Itinerary.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		04EE121529E5137D006D45C3 = {
 			isa = PBXGroup;
 			children = (
@@ -52,8 +75,10 @@
 		04EE122029E5137D006D45C3 /* tona */ = {
 			isa = PBXGroup;
 			children = (
+				0423981D29EE3523005530AD /* Model */,
 				04EE122129E5137D006D45C3 /* tonaApp.swift */,
 				04EE122329E5137D006D45C3 /* ContentView.swift */,
+				046E68B829EE31F20004F0B3 /* Views */,
 				04EE122529E5137E006D45C3 /* Assets.xcassets */,
 				04EE122729E5137E006D45C3 /* tona.entitlements */,
 				04EE122829E5137E006D45C3 /* Preview Content */,
@@ -140,7 +165,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				04EE122429E5137D006D45C3 /* ContentView.swift in Sources */,
+				046E68BC29EE323A0004F0B3 /* Itinerary.swift in Sources */,
 				04EE122229E5137D006D45C3 /* tonaApp.swift in Sources */,
+				0423982129EE3610005530AD /* UserModel.swift in Sources */,
+				0423981F29EE353C005530AD /* ItineraryModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
