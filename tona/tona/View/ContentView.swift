@@ -9,22 +9,31 @@ import SwiftUI
 
 struct ContentView: View {
     @StateObject var viewModel = ItineraryViewModel()
+    @StateObject var findviewModel = FindViewModel()
     
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            TabView{
+                Itinerary()
+                    .environmentObject(viewModel)
+                    .tabItem{
+                        Label("plans", systemImage: "paperplane.circle.fill")
+                    }
+                FindView()
+                    .environmentObject(findviewModel)
+                    .tabItem{
+                        Label("find", systemImage: "magnifyingglass.circle.fill")
+                    }
+            }
+            .background(Color(.sRGB, red: 4/255, green: 27/255, blue: 21/255))
         }
-        .padding()
-        
-        Itinerary().environmentObject(viewModel)
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .environmentObject(FindViewModel())
+            .environmentObject(ItineraryViewModel())
     }
 }
