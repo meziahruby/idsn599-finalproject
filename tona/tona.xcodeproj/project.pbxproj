@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		0423981F29EE353C005530AD /* ItineraryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0423981E29EE353C005530AD /* ItineraryModel.swift */; };
 		0423982129EE3610005530AD /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0423982029EE3610005530AD /* UserModel.swift */; };
+		0423982429EE3D30005530AD /* ItineraryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0423982329EE3D30005530AD /* ItineraryViewModel.swift */; };
+		0423982629EE3EA0005530AD /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0423982529EE3EA0005530AD /* Event.swift */; };
+		0423982B29F44127005530AD /* EventImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0423982A29F44127005530AD /* EventImage.swift */; };
+		0423982D29F446D3005530AD /* WithUsersImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0423982C29F446D3005530AD /* WithUsersImage.swift */; };
 		046E68BC29EE323A0004F0B3 /* Itinerary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046E68BB29EE323A0004F0B3 /* Itinerary.swift */; };
 		04EE122229E5137D006D45C3 /* tonaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EE122129E5137D006D45C3 /* tonaApp.swift */; };
 		04EE122429E5137D006D45C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EE122329E5137D006D45C3 /* ContentView.swift */; };
@@ -19,6 +23,10 @@
 /* Begin PBXFileReference section */
 		0423981E29EE353C005530AD /* ItineraryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryModel.swift; sourceTree = "<group>"; };
 		0423982029EE3610005530AD /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		0423982329EE3D30005530AD /* ItineraryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryViewModel.swift; sourceTree = "<group>"; };
+		0423982529EE3EA0005530AD /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		0423982A29F44127005530AD /* EventImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventImage.swift; sourceTree = "<group>"; };
+		0423982C29F446D3005530AD /* WithUsersImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithUsersImage.swift; sourceTree = "<group>"; };
 		046E68BB29EE323A0004F0B3 /* Itinerary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Itinerary.swift; sourceTree = "<group>"; };
 		04EE121E29E5137D006D45C3 /* tona.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tona.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04EE122129E5137D006D45C3 /* tonaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tonaApp.swift; sourceTree = "<group>"; };
@@ -48,12 +56,30 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		046E68B829EE31F20004F0B3 /* Views */ = {
+		0423982229EE3D0C005530AD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0423982329EE3D30005530AD /* ItineraryViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0423982729F44098005530AD /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				0423982A29F44127005530AD /* EventImage.swift */,
+				0423982C29F446D3005530AD /* WithUsersImage.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		046E68B829EE31F20004F0B3 /* View */ = {
 			isa = PBXGroup;
 			children = (
 				046E68BB29EE323A0004F0B3 /* Itinerary.swift */,
+				0423982529EE3EA0005530AD /* Event.swift */,
 			);
-			path = Views;
+			path = View;
 			sourceTree = "<group>";
 		};
 		04EE121529E5137D006D45C3 = {
@@ -75,10 +101,12 @@
 		04EE122029E5137D006D45C3 /* tona */ = {
 			isa = PBXGroup;
 			children = (
+				0423982729F44098005530AD /* Helper */,
+				0423982229EE3D0C005530AD /* ViewModel */,
 				0423981D29EE3523005530AD /* Model */,
 				04EE122129E5137D006D45C3 /* tonaApp.swift */,
 				04EE122329E5137D006D45C3 /* ContentView.swift */,
-				046E68B829EE31F20004F0B3 /* Views */,
+				046E68B829EE31F20004F0B3 /* View */,
 				04EE122529E5137E006D45C3 /* Assets.xcassets */,
 				04EE122729E5137E006D45C3 /* tona.entitlements */,
 				04EE122829E5137E006D45C3 /* Preview Content */,
@@ -166,8 +194,12 @@
 			files = (
 				04EE122429E5137D006D45C3 /* ContentView.swift in Sources */,
 				046E68BC29EE323A0004F0B3 /* Itinerary.swift in Sources */,
+				0423982B29F44127005530AD /* EventImage.swift in Sources */,
+				0423982429EE3D30005530AD /* ItineraryViewModel.swift in Sources */,
 				04EE122229E5137D006D45C3 /* tonaApp.swift in Sources */,
 				0423982129EE3610005530AD /* UserModel.swift in Sources */,
+				0423982629EE3EA0005530AD /* Event.swift in Sources */,
+				0423982D29F446D3005530AD /* WithUsersImage.swift in Sources */,
 				0423981F29EE353C005530AD /* ItineraryModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,8 +8,17 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var viewModel = ItineraryViewModel()
+    
     var body: some View {
-        Itinerary()
+        TabView {
+            ScrollView {
+                Itinerary().environmentObject(viewModel)
+            }
+            .tabItem { Label("Trips", systemImage: "airplane.departure")}
+            // Insert other tabs here
+        }
+
     }
 }
 
