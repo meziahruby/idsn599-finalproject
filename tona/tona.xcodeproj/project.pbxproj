@@ -7,30 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0423981F29EE353C005530AD /* ItineraryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0423981E29EE353C005530AD /* ItineraryModel.swift */; };
-		0423982129EE3610005530AD /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0423982029EE3610005530AD /* UserModel.swift */; };
-		0423982429EE3D30005530AD /* ItineraryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0423982329EE3D30005530AD /* ItineraryViewModel.swift */; };
-		0423982629EE3EA0005530AD /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0423982529EE3EA0005530AD /* Event.swift */; };
-		0423982B29F44127005530AD /* EventImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0423982A29F44127005530AD /* EventImage.swift */; };
-		0423982D29F446D3005530AD /* WithUsersImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0423982C29F446D3005530AD /* WithUsersImage.swift */; };
-		046E68BC29EE323A0004F0B3 /* Itinerary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046E68BB29EE323A0004F0B3 /* Itinerary.swift */; };
+		0423981F29EE353C005530AD /* (null) in Sources */ = {isa = PBXBuildFile; };
+		0423982129EE3610005530AD /* (null) in Sources */ = {isa = PBXBuildFile; };
+		0423982429EE3D30005530AD /* (null) in Sources */ = {isa = PBXBuildFile; };
+		0423982629EE3EA0005530AD /* (null) in Sources */ = {isa = PBXBuildFile; };
+		0423982B29F44127005530AD /* (null) in Sources */ = {isa = PBXBuildFile; };
+		0423982D29F446D3005530AD /* (null) in Sources */ = {isa = PBXBuildFile; };
+		0423983129F468AD005530AD /* WithUsersImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0423982F29F468AD005530AD /* WithUsersImage.swift */; };
+		0423983229F468AD005530AD /* EventImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0423983029F468AD005530AD /* EventImage.swift */; };
+		0423983829F468B8005530AD /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0423983429F468B8005530AD /* Event.swift */; };
+		0423983929F468B8005530AD /* FindView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0423983529F468B8005530AD /* FindView.swift */; };
+		0423983A29F468B8005530AD /* Itinerary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0423983629F468B8005530AD /* Itinerary.swift */; };
+		0423983B29F468B8005530AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0423983729F468B8005530AD /* ContentView.swift */; };
+		0423983F29F4691B005530AD /* ItineraryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0423983C29F4691B005530AD /* ItineraryModel.swift */; };
+		0423984029F4691B005530AD /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0423983D29F4691B005530AD /* TabBar.swift */; };
+		0423984129F4691B005530AD /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0423983E29F4691B005530AD /* UserModel.swift */; };
+		0423984429F46926005530AD /* ItineraryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0423984329F46926005530AD /* ItineraryViewModel.swift */; };
+		046E68BC29EE323A0004F0B3 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		04EE122229E5137D006D45C3 /* tonaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EE122129E5137D006D45C3 /* tonaApp.swift */; };
-		04EE122429E5137D006D45C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EE122329E5137D006D45C3 /* ContentView.swift */; };
 		04EE122629E5137E006D45C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04EE122529E5137E006D45C3 /* Assets.xcassets */; };
 		04EE122A29E5137E006D45C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04EE122929E5137E006D45C3 /* Preview Assets.xcassets */; };
-		A49CA07A29ED509A00153BEC /* FindView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49CA07929ED509A00153BEC /* FindView.swift */; };
-		A49CA0B629EDAF5400153BEC /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49CA0B529EDAF5400153BEC /* TabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0423982F29F468AD005530AD /* WithUsersImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WithUsersImage.swift; sourceTree = "<group>"; };
+		0423983029F468AD005530AD /* EventImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventImage.swift; sourceTree = "<group>"; };
+		0423983429F468B8005530AD /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		0423983529F468B8005530AD /* FindView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindView.swift; sourceTree = "<group>"; };
+		0423983629F468B8005530AD /* Itinerary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Itinerary.swift; sourceTree = "<group>"; };
+		0423983729F468B8005530AD /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0423983C29F4691B005530AD /* ItineraryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItineraryModel.swift; sourceTree = "<group>"; };
+		0423983D29F4691B005530AD /* TabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		0423983E29F4691B005530AD /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		0423984329F46926005530AD /* ItineraryViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItineraryViewModel.swift; sourceTree = "<group>"; };
 		04EE121E29E5137D006D45C3 /* tona.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tona.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04EE122129E5137D006D45C3 /* tonaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tonaApp.swift; sourceTree = "<group>"; };
-		04EE122329E5137D006D45C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		04EE122529E5137E006D45C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04EE122729E5137E006D45C3 /* tona.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = tona.entitlements; sourceTree = "<group>"; };
 		04EE122929E5137E006D45C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A49CA07929ED509A00153BEC /* FindView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindView.swift; sourceTree = "<group>"; };
-		A49CA0B529EDAF5400153BEC /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,36 +61,39 @@
 		0423981D29EE3523005530AD /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				0423981E29EE353C005530AD /* ItineraryModel.swift */,
-				0423982029EE3610005530AD /* UserModel.swift */,
+				0423983C29F4691B005530AD /* ItineraryModel.swift */,
+				0423983D29F4691B005530AD /* TabBar.swift */,
+				0423983E29F4691B005530AD /* UserModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		0423982229EE3D0C005530AD /* ViewModel */ = {
+		0423982E29F468AD005530AD /* Helper */ = {
 			isa = PBXGroup;
 			children = (
-				0423982329EE3D30005530AD /* ItineraryViewModel.swift */,
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		0423982729F44098005530AD /* Helper */ = {
-			isa = PBXGroup;
-			children = (
-				0423982A29F44127005530AD /* EventImage.swift */,
-				0423982C29F446D3005530AD /* WithUsersImage.swift */,
+				0423982F29F468AD005530AD /* WithUsersImage.swift */,
+				0423983029F468AD005530AD /* EventImage.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
 		};
-		046E68B829EE31F20004F0B3 /* View */ = {
+		0423983329F468B8005530AD /* View */ = {
 			isa = PBXGroup;
 			children = (
-				046E68BB29EE323A0004F0B3 /* Itinerary.swift */,
-				0423982529EE3EA0005530AD /* Event.swift */,
+				0423983429F468B8005530AD /* Event.swift */,
+				0423983529F468B8005530AD /* FindView.swift */,
+				0423983629F468B8005530AD /* Itinerary.swift */,
+				0423983729F468B8005530AD /* ContentView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		0423984229F46926005530AD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0423984329F46926005530AD /* ItineraryViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		04EE121529E5137D006D45C3 = {
@@ -98,12 +115,11 @@
 		04EE122029E5137D006D45C3 /* tona */ = {
 			isa = PBXGroup;
 			children = (
-				0423982729F44098005530AD /* Helper */,
-				0423982229EE3D0C005530AD /* ViewModel */,
+				0423984229F46926005530AD /* ViewModel */,
+				0423983329F468B8005530AD /* View */,
+				0423982E29F468AD005530AD /* Helper */,
 				0423981D29EE3523005530AD /* Model */,
 				04EE122129E5137D006D45C3 /* tonaApp.swift */,
-				04EE122329E5137D006D45C3 /* ContentView.swift */,
-				046E68B829EE31F20004F0B3 /* View */,
 				04EE122529E5137E006D45C3 /* Assets.xcassets */,
 				04EE122729E5137E006D45C3 /* tona.entitlements */,
 				04EE122829E5137E006D45C3 /* Preview Content */,
@@ -189,15 +205,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04EE122429E5137D006D45C3 /* ContentView.swift in Sources */,
-				046E68BC29EE323A0004F0B3 /* Itinerary.swift in Sources */,
-				0423982B29F44127005530AD /* EventImage.swift in Sources */,
-				0423982429EE3D30005530AD /* ItineraryViewModel.swift in Sources */,
+				046E68BC29EE323A0004F0B3 /* (null) in Sources */,
+				0423983929F468B8005530AD /* FindView.swift in Sources */,
+				0423982B29F44127005530AD /* (null) in Sources */,
+				0423984029F4691B005530AD /* TabBar.swift in Sources */,
+				0423982429EE3D30005530AD /* (null) in Sources */,
+				0423983A29F468B8005530AD /* Itinerary.swift in Sources */,
+				0423983829F468B8005530AD /* Event.swift in Sources */,
+				0423983129F468AD005530AD /* WithUsersImage.swift in Sources */,
+				0423984429F46926005530AD /* ItineraryViewModel.swift in Sources */,
+				0423984129F4691B005530AD /* UserModel.swift in Sources */,
 				04EE122229E5137D006D45C3 /* tonaApp.swift in Sources */,
-				0423982129EE3610005530AD /* UserModel.swift in Sources */,
-				0423982629EE3EA0005530AD /* Event.swift in Sources */,
-				0423982D29F446D3005530AD /* WithUsersImage.swift in Sources */,
-				0423981F29EE353C005530AD /* ItineraryModel.swift in Sources */,
+				0423982129EE3610005530AD /* (null) in Sources */,
+				0423983229F468AD005530AD /* EventImage.swift in Sources */,
+				0423983B29F468B8005530AD /* ContentView.swift in Sources */,
+				0423982629EE3EA0005530AD /* (null) in Sources */,
+				0423982D29F446D3005530AD /* (null) in Sources */,
+				0423981F29EE353C005530AD /* (null) in Sources */,
+				0423983F29F4691B005530AD /* ItineraryModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
