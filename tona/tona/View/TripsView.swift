@@ -9,30 +9,6 @@
 
     import SwiftUI
 
-struct TripsScreen: View {
-    var body: some View {
-        ScrollView {
-            VStack(alignment: .leading) {
-                HeaderView()
-                Divider()
-                    .padding(.vertical)
-                Text("We're Going!")
-                    .font(.largeTitle.weight(.medium))
-                    .foregroundColor(Color(.sRGB, red: 235/255, green: 249/255, blue: 249/255))
-                TripView(image: "paris", title: "Paris")
-                TripView(image: "nyc", title: "New York")
-                Spacer()
-                    .frame(height: 60)
-                Text("Can We Go?")
-                    .font(.largeTitle.weight(.medium))
-                    .foregroundColor(Color(.sRGB, red: 235/255, green: 249/255, blue: 249/255))
-                TripView(image: "sedona", title: "Sedona")
-            }
-            .padding()
-            .background(Color(.sRGB, red: 4/255, green: 27/255, blue: 21/255))
-        }
-    }
-}
 
 struct HeaderView: View {
     var body: some View {
@@ -48,6 +24,7 @@ struct HeaderView: View {
                     .renderingMode(.original)
                     .resizable()
                     .aspectRatio(contentMode: .fill)
+                    .padding(.trailing)
                     .frame(width: 130, height: 120, alignment: .center)
                     .clipped()
                 VStack(alignment: .leading, spacing: 8) {
@@ -61,6 +38,32 @@ struct HeaderView: View {
                 .frame(maxWidth: .infinity)
             }
             .frame(maxWidth: .infinity)
+        }
+    }
+}
+
+struct TripsScreen: View {
+    var body: some View {
+        ScrollView {
+            VStack(alignment: .leading) {
+                HeaderView()
+                Divider()
+                    .padding(.vertical)
+                Text("We're Going!")
+                    .font(.largeTitle.weight(.medium))
+                    .foregroundColor(Color(.sRGB, red: 235/255, green: 249/255, blue: 249/255))
+                TripView(image: "paris", title: "Paris")
+                    .padding(.all)
+                TripView(image: "nyc", title: "New York")
+                Spacer()
+                    .frame(height: 60)
+                Text("Can We Go?")
+                    .font(.largeTitle.weight(.medium))
+                    .foregroundColor(Color(.sRGB, red: 235/255, green: 249/255, blue: 249/255))
+                TripView(image: "sedona", title: "Sedona")
+            }
+            .padding()
+            .background(Color(.sRGB, red: 4/255, green: 27/255, blue: 21/255))
         }
     }
 }
