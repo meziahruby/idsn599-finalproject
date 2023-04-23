@@ -10,9 +10,24 @@ import SwiftUI
 
 struct ItineraryEvents {
     var events: [EventModel] = [
-        EventModel(name: "Flight to France", date: Date(), image: Image("eiffel-tower"), withUsers: [UserModel(user: "helen"), UserModel(user: "howl"), UserModel(user: "sophie")]),
-        EventModel(name: "Check in hotel", date: Date(), image: Image("eiffel-tower"), withUsers: [UserModel(user: "helen"), UserModel(user: "sophie")]),
-        EventModel(name: "Eiffel Tower tour", date: Date(), image: Image("eiffel-tower"), withUsers: [UserModel(user: "helen"), UserModel(user: "howl"), UserModel(user: "sophie")]),
+        EventModel(
+            name: "Flight to France",
+            date: Date(timeIntervalSinceReferenceDate: 704013300), // 4/24/23 7:15am
+            image: Image("eiffel-tower"),
+            withUsers: [UserModel(user: "markl"), UserModel(user: "howl"), UserModel(user: "sophie")]
+        ),
+        EventModel(
+            name: "Check in hotel",
+            date: Date(timeIntervalSinceReferenceDate: 704013300),
+            image: Image("eiffel-tower"),
+            withUsers: [UserModel(user: "markl"), UserModel(user: "sophie")]
+        ),
+        EventModel(
+            name: "Eiffel Tower tour",
+            date: Date(),
+            image: Image("eiffel-tower"),
+            withUsers: [UserModel(user: "markl"), UserModel(user: "howl"), UserModel(user: "sophie")]
+        ),
     ]
 }
 

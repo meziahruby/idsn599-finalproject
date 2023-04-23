@@ -17,12 +17,12 @@ struct ContentView: View {
                 Itinerary()
                     .environmentObject(viewModel)
                     .tabItem{
-                        Label("plans", systemImage: "paperplane.circle.fill")
+                        Label("Trips", systemImage: "paperplane.circle.fill")
                     }
                 FindView()
                     .environmentObject(findviewModel)
                     .tabItem{
-                        Label("find", systemImage: "magnifyingglass.circle.fill")
+                        Label("Discover", systemImage: "magnifyingglass.circle.fill")
                     }
             }
             .background(Color(.sRGB, red: 4/255, green: 27/255, blue: 21/255))

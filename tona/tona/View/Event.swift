@@ -11,21 +11,25 @@ struct Event: View {
     @EnvironmentObject var viewModel: ItineraryViewModel
     var event: EventModel
     
+    var pastEventColor = Color(.lightGray)
+    var currentEventColor = Color(.sRGB, red: 235/255, green: 155/255, blue: 83/255)
+    var upcomingEventColor = Color(.sRGB, red: 235/255, green: 155/255, blue: 83/255)
+    
     var body: some View {
         HStack(alignment: .top) {
-            VStack(spacing: 2) {
+            VStack(spacing: 0) {
                 Image(systemName: "circle.fill")
                     .imageScale(.medium)
                     .font(.footnote)
-                    .foregroundColor(Color(.sRGB, red: 235/255, green: 155/255, blue: 83/255))
+                    .foregroundColor(.white)
                 Rectangle()
-                    .frame(width: 2)
-                    .clipped()
-                    .foregroundColor(.primary)
+                    .frame(width: 1)
+                    .foregroundColor(currentEventColor)
+                    
             }
             .frame(height: .infinity)
-            .clipped()
             .foregroundColor(Color(.tertiaryLabel))
+            
             EventImage(event.image)
                 .padding([.leading, .trailing], 5)
                 
@@ -44,7 +48,9 @@ struct Event: View {
                             .padding(.top, 5)
                     }
                 }
+                .padding(.bottom, 10)
             }
+            
             Spacer()
         }
         .padding(.horizontal)
