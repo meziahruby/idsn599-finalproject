@@ -15,6 +15,7 @@ class FindViewModel: ObservableObject {
     var find: [Find] {
         findPic.findData
     }
+    
 
         
 }
