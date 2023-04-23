@@ -23,10 +23,8 @@ struct FindImage {
         Find(imageName: Image("paris4"), location: "paris"),
         Find(imageName: Image("dubai1"), location: "dubai"),
         Find(imageName: Image("miami3"), location: "miami"),
-        Find(imageName: Image("new york3"), location: "new york"),
         Find(imageName: Image("new york7"), location: "new york"),
         Find(imageName: Image("miami4"), location: "miami"),
-        Find(imageName: Image("new york4"), location: "new york"),
         Find(imageName: Image("sydney2"), location: "sydney"),
         Find(imageName: Image("paris5"), location: "paris"),
         Find(imageName: Image("paris9"), location: "paris"),
@@ -34,9 +32,7 @@ struct FindImage {
         Find(imageName: Image("miami5"), location: "miami"),
         Find(imageName: Image("paris6"), location: "paris"),
         Find(imageName: Image("paris7"), location: "paris"),
-        Find(imageName: Image("new york6"), location: "new york"),
         Find(imageName: Image("miami6"), location: "miami"),
-        Find(imageName: Image("paris8"), location: "paris"),
         Find(imageName: Image("miami7"), location: "miami")
       ]
 }

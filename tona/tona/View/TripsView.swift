@@ -7,7 +7,7 @@
 //  Copyright © (My Organization). All rights reserved.
 //
 
-    import SwiftUI
+import SwiftUI
 
 struct TripsScreen: View {
     var body: some View {
@@ -29,7 +29,6 @@ struct TripsScreen: View {
                 TripView(image: "sedona", title: "Sedona")
             }
             .padding()
-            .background(Color(.sRGB, red: 4/255, green: 27/255, blue: 21/255))
         }
         .background(Color(.sRGB, red: 4/255, green: 27/255, blue: 21/255))
     }
@@ -65,6 +64,7 @@ struct HeaderView: View {
         }
     }
 }
+
 
 struct TripView: View {
     let image: String
