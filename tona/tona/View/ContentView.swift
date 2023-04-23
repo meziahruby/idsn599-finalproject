@@ -24,6 +24,10 @@ struct ContentView: View {
                     .tabItem{
                         Label("Discover", systemImage: "magnifyingglass.circle.fill")
                     }
+                TripsScreen()
+                    .tabItem{
+                        Label("goal", systemImage: "globe.desk")
+                    }
             }
             .background(Color(.sRGB, red: 4/255, green: 27/255, blue: 21/255))
         }
