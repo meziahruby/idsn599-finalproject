@@ -16,7 +16,7 @@ struct ContentView: View {
             TabView{
                 TripsScreen()
                     .tabItem{
-                        Label("goal", systemImage: "globe.desk")
+                        Label("Home", systemImage: "house.fill")
                     }
                 Itinerary()
                     .environmentObject(viewModel)
