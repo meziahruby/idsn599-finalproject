@@ -30,6 +30,7 @@
 		A49CA0D129F4747900153BEC /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49CA0D029F4747900153BEC /* SearchBar.swift */; };
 		A49CA0D329F4748500153BEC /* RectangleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49CA0D229F4748500153BEC /* RectangleImage.swift */; };
 		A49CA0D529F4749C00153BEC /* FindModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49CA0D429F4749C00153BEC /* FindModel.swift */; };
+		A49CA11829F59A3600153BEC /* TextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49CA11729F59A3600153BEC /* TextFieldStyle.swift */; };
 		AEFDEC1D29F4D94B0027ECB8 /* TripsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFDEC1C29F4D94B0027ECB8 /* TripsView.swift */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +53,7 @@
 		A49CA0D029F4747900153BEC /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		A49CA0D229F4748500153BEC /* RectangleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleImage.swift; sourceTree = "<group>"; };
 		A49CA0D429F4749C00153BEC /* FindModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindModel.swift; sourceTree = "<group>"; };
+		A49CA11729F59A3600153BEC /* TextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldStyle.swift; sourceTree = "<group>"; };
 		AEFDEC1C29F4D94B0027ECB8 /* TripsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,6 +85,7 @@
 				0423983029F468AD005530AD /* EventImage.swift */,
 				A49CA0D029F4747900153BEC /* SearchBar.swift */,
 				A49CA0D229F4748500153BEC /* RectangleImage.swift */,
+				A49CA11729F59A3600153BEC /* TextFieldStyle.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 				A49CA0CF29F472BD00153BEC /* FindViewModel.swift in Sources */,
 				0423983829F468B8005530AD /* Event.swift in Sources */,
 				0423983129F468AD005530AD /* WithUsersImage.swift in Sources */,
+				A49CA11829F59A3600153BEC /* TextFieldStyle.swift in Sources */,
 				0423984429F46926005530AD /* ItineraryViewModel.swift in Sources */,
 				0423984129F4691B005530AD /* UserModel.swift in Sources */,
 				A49CA0D529F4749C00153BEC /* FindModel.swift in Sources */,

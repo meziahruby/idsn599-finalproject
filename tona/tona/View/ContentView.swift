@@ -16,17 +16,17 @@ struct ContentView: View {
             TabView{
                 TripsScreen()
                     .tabItem{
-                        Label("Home", systemImage: "house.fill")
+                        Label("home", systemImage: "house.fill")
                     }
                 Itinerary()
                     .environmentObject(viewModel)
                     .tabItem{
-                        Label("Trips", systemImage: "paperplane.circle.fill")
+                        Label("trips", systemImage: "paperplane.circle.fill")
                     }
                 FindView()
                     .environmentObject(findviewModel)
                     .tabItem{
-                        Label("Discover", systemImage: "magnifyingglass.circle.fill")
+                        Label("discover", systemImage: "magnifyingglass.circle.fill")
                     }
             }
             .background(Color(.sRGB, red: 4/255, green: 27/255, blue: 21/255))
