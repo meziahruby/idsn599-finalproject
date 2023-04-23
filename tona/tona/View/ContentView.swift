@@ -14,6 +14,10 @@ struct ContentView: View {
     var body: some View {
         VStack {
             TabView{
+                TripsScreen()
+                    .tabItem{
+                        Label("goal", systemImage: "globe.desk")
+                    }
                 Itinerary()
                     .environmentObject(viewModel)
                     .tabItem{
@@ -23,10 +27,6 @@ struct ContentView: View {
                     .environmentObject(findviewModel)
                     .tabItem{
                         Label("find", systemImage: "magnifyingglass.circle.fill")
-                    }
-                TripsScreen()
-                    .tabItem{
-                        Label("goal", systemImage: "globe.desk")
                     }
             }
             .background(Color(.sRGB, red: 4/255, green: 27/255, blue: 21/255))

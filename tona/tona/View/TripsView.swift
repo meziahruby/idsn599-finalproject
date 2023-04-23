@@ -31,6 +31,7 @@ struct TripsScreen: View {
             .padding()
             .background(Color(.sRGB, red: 4/255, green: 27/255, blue: 21/255))
         }
+        .background(Color(.sRGB, red: 4/255, green: 27/255, blue: 21/255))
     }
 }
 
