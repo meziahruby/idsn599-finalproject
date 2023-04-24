@@ -16,28 +16,32 @@ struct Itinerary: View {
     
     var body: some View {
         ScrollView {
+            
             VStack {
                 HStack {
-                    Text("Los Angeles")
-                        .font(.title3)
+                    Text("Paris")
+                        .font(.title2)
                         .foregroundColor(Color(.sRGB, red: 235/255, green: 155/255, blue: 83/255))
                         .fixedSize(horizontal: false, vertical: true)
                     Spacer()
                     Text("Back to Trips >")
+                        .foregroundColor(.blue)
                 }
-                .padding(.top, 76)
+                .padding(.top, 25)
                 .padding(.horizontal)
-                Text("Friday 4/17")
+                Text("Tuesday, May 2")
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .clipped()
                     .padding()
                     .font(.title.weight(.medium))
                     .padding(.bottom)
                     .foregroundColor(Color(.sRGB, red: 115/255, green: 233/255, blue: 227/255))
-                VStack() {
-                    ForEach(viewModel.events) { event in
-                        Event(event: event)
-                    }
+                    VStack(spacing: 0) {
+                            ForEach(viewModel.events) { event in
+                                Event(event: event)
+                            }
+                            Text("- End of Day -")
+                                .foregroundColor(.gray)
                 }
             }
         }

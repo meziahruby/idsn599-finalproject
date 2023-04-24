@@ -27,13 +27,12 @@ struct Event: View {
                     .foregroundColor(currentEventColor)
                     
             }
-            .frame(height: .infinity)
             .foregroundColor(Color(.tertiaryLabel))
             
             EventImage(event.image)
                 .padding([.leading, .trailing], 5)
                 
-            VStack(alignment: .leading, spacing: 4) {
+            VStack(alignment: .leading, spacing: 2) {
                 Text(event.date
                         .formatted(date: .omitted, time: .shortened)
                     )
@@ -48,12 +47,18 @@ struct Event: View {
                             .padding(.top, 5)
                     }
                 }
-                .padding(.bottom, 10)
+                .padding(.bottom, 20)
             }
-            
             Spacer()
         }
-        .padding(.horizontal)
+        .swipeActions(edge: .leading) {
+          Button {
+            print("Bookmark")
+          } label: {
+            Label("Bookmark", systemImage: "bookmark")
+          }.tint(.indigo)
+        }
+        .padding(.horizontal) // only pad to the side so items are on top of each other
         .background(Color(.sRGB, red: 4/255, green: 27/255, blue: 21/255))
     }
 }
