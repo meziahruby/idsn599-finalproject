@@ -60,18 +60,7 @@ struct TripsScreen: View {
                 TripView(image: "nyc", title: "New York")
                 Spacer()
                     .frame(height: 60)
-                Text("Can We Go?")
-                    .font(.largeTitle.weight(.medium))
-                    .foregroundColor(Color(.sRGB, red: 235/255, green: 249/255, blue: 249/255))
-                TripView(image: "sedona", title: "Sedona")
-                TripView(image: "finland", title: "Finland")
-                TripView(image: "   dubai", title: "Dubai")
-            }
-            .padding()
-            .background(Color(.sRGB, red: 4/255, green: 27/255, blue: 21/255))
-        }
-    }
-}
+
 
 struct TripView: View {
     let image: String
@@ -113,6 +102,6 @@ struct GradientBackground: View {
 
 struct Previews_TripsView_Previews: PreviewProvider {
     static var previews: some View {
-        Home()
+        HomeView()
     }
 }

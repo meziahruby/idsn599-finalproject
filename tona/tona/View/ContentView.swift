@@ -24,7 +24,7 @@ struct ContentView: View {
                     .tabItem{
                         Label("find", systemImage: "magnifyingglass.circle.fill")
                     }
-                Home()
+                HomeView()
                     .tabItem{
                         Label("goal", systemImage: "globe.desk")
                     }

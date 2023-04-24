@@ -31,6 +31,7 @@
 		A49CA0D329F4748500153BEC /* RectangleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49CA0D229F4748500153BEC /* RectangleImage.swift */; };
 		A49CA0D529F4749C00153BEC /* FindModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49CA0D429F4749C00153BEC /* FindModel.swift */; };
 		AEFDEC1D29F4D94B0027ECB8 /* TripsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFDEC1C29F4D94B0027ECB8 /* TripsView.swift */; };
+		AEFDEC2129F606AF0027ECB8 /* Aspirational.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFDEC2029F606AE0027ECB8 /* Aspirational.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		A49CA0D229F4748500153BEC /* RectangleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleImage.swift; sourceTree = "<group>"; };
 		A49CA0D429F4749C00153BEC /* FindModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindModel.swift; sourceTree = "<group>"; };
 		AEFDEC1C29F4D94B0027ECB8 /* TripsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripsView.swift; sourceTree = "<group>"; };
+		AEFDEC2029F606AE0027ECB8 /* Aspirational.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aspirational.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				AEFDEC1C29F4D94B0027ECB8 /* TripsView.swift */,
+				AEFDEC2029F606AE0027ECB8 /* Aspirational.swift */,
 				0423983429F468B8005530AD /* Event.swift */,
 				0423983529F468B8005530AD /* FindView.swift */,
 				0423983629F468B8005530AD /* Itinerary.swift */,
@@ -231,6 +234,7 @@
 				04EE122229E5137D006D45C3 /* tonaApp.swift in Sources */,
 				A49CA0D329F4748500153BEC /* RectangleImage.swift in Sources */,
 				AEFDEC1D29F4D94B0027ECB8 /* TripsView.swift in Sources */,
+				AEFDEC2129F606AF0027ECB8 /* Aspirational.swift in Sources */,
 				0423982129EE3610005530AD /* (null) in Sources */,
 				0423983229F468AD005530AD /* EventImage.swift in Sources */,
 				0423983B29F468B8005530AD /* ContentView.swift in Sources */,
