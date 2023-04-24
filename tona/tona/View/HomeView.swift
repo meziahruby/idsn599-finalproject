@@ -42,7 +42,7 @@ struct HeaderView: View {
     }
 }
 
-struct TripsScreen: View {
+struct HomeView: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .leading) {
@@ -54,15 +54,15 @@ struct TripsScreen: View {
                     .foregroundColor(Color(.sRGB, red: 235/255, green: 249/255, blue: 249/255))
                 HStack {
                     Spacer()
-                    TripView(image: "paris", title: "Paris")
+                    HomeView(image: "paris", title: "Paris")
                         .padding(.all)
                 }
-                TripView(image: "nyc", title: "New York")
+                HomeView(image: "nyc", title: "New York")
                 Spacer()
                     .frame(height: 60)
 
 
-struct TripView: View {
+struct HomeView: View {
     let image: String
     let title: String
     
