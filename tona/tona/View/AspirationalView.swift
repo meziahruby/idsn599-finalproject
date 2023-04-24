@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct HeaderView: View {
+struct UpperView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
             Image("tona_logo")

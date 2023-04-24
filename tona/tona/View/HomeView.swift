@@ -10,7 +10,7 @@
     import SwiftUI
 
 
-struct HeaderView: View {
+struct TopView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
             Image("tona_logo")
@@ -55,7 +55,6 @@ struct HomeView: View {
                 HStack {
                     Spacer()
                     HomeView(image: "paris", title: "Paris")
-                        .padding(.all)
                 }
                 HomeView(image: "nyc", title: "New York")
                 Spacer()
