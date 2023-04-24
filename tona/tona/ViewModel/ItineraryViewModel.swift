@@ -10,6 +10,10 @@ import SwiftUI
 class ItineraryViewModel: ObservableObject {
 
     @Published private var model: ItineraryData = ItineraryData()
+    
+    var itinerariesData: [ItineraryModel] {
+        model.itineraries
+    }
 
     var events: [EventModel] {
         model.parisEvents

@@ -16,7 +16,6 @@ struct Itinerary: View {
     
     var body: some View {
         ScrollView {
-            
             VStack {
                 HStack {
                     Text("Paris")
