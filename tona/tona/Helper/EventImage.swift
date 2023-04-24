@@ -20,12 +20,11 @@ struct EventImage: View {
             .renderingMode(.original)
             .resizable()
             .aspectRatio(contentMode: .fill)
-            .frame(width: 60, height: 80)
-            .clipped()
+            .frame(width: 60)
             .mask {
                 RoundedRectangle(cornerRadius: 16, style: .continuous)
             }
-            .shadow(color: Color(.sRGBLinear, red: 0/255, green: 0/255, blue: 0/255).opacity(0.25), radius: 8, x: 0, y: 4)
+            .padding(.bottom)
     }
 }
 

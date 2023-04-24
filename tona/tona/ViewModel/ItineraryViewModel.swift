@@ -9,10 +9,10 @@ import SwiftUI
 
 class ItineraryViewModel: ObservableObject {
 
-    @Published private var model: ItineraryEvents = ItineraryEvents()
+    @Published private var model: ItineraryData = ItineraryData()
 
     var events: [EventModel] {
-        model.events
+        model.parisEvents
     }
 
         

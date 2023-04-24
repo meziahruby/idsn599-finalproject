@@ -5,13 +5,15 @@
 //  Designed in DetailsPro
 //  Copyright © (My Organization). All rights reserved.
 //
+/* This is the view for the discovery page with a search bar feature. It also shows a grid view of photos based on the user's latest travel interests. */
 
 import SwiftUI
 
 
 struct FindView: View {
     @EnvironmentObject var viewModel: FindViewModel
-  
+    
+    
     private let columns = [
         GridItem(.flexible(minimum: 40)),
         GridItem(.flexible(minimum: 40)),
@@ -19,19 +21,22 @@ struct FindView: View {
     ]
     
     var body: some View {
-        VStack{
-            SearchBar()
-            ScrollView{
-                LazyVGrid(columns: columns, content: {
-                    ForEach(viewModel.find)
+        NavigationView{
+            VStack{
+                SearchBar(text: $viewModel.searchText)
+                    .padding()
+                ScrollView{
+                    LazyVGrid(columns: columns, content: {
+                        ForEach(viewModel.filteredImages)
                         { post in
                             RectangleImage(post.imageName)
+                        }
                     }
-                }
-            )}
-            .padding()
+                    )}
+                .padding()
+            }
+            .background(Color(.sRGB, red: 4/255, green: 27/255, blue: 21/255))
         }
-        .background(Color(.sRGB, red: 4/255, green: 27/255, blue: 21/255))
     }
 }
 

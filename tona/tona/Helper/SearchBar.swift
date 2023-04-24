@@ -4,30 +4,28 @@
 //
 //  Created by Njideka Akudinobi on 4/22/23.
 //
+/*
+ This is the search bar helper view for the discovery page
+ */
 
 import SwiftUI
 
 struct SearchBar: View {
+    @Binding var text: String
+    
     var body: some View {
-        ZStack(alignment: .leading) {
-            HStack(spacing: 10) {
-                Image(systemName: "magnifyingglass")
-                    .symbolRenderingMode(.monochrome)
+        HStack {
+            TextField("Where is your next adventure?", text: $text)
+                .textFieldStyle(CustomTextFieldStyle())
+                         
+            Button(action: {
+                text = ""
+            }, label: {
+                Image(systemName: "xmark.circle.fill")
                     .foregroundColor(.white)
-                Text("Where are you going next?")
-                    .foregroundColor(.white)
-            }
-            .padding()
-            Capsule(style: .continuous)
-                .frame(width: 375, height: 49, alignment: .top)
-                .clipped()
-                .foregroundColor(Color(.systemFill))
+                    .padding(.trailing, 10)
+            })
         }
     }
 }
 
-struct SearchBar_Previews: PreviewProvider {
-    static var previews: some View {
-        SearchBar()
-    }
-}

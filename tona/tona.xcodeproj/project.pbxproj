@@ -85,6 +85,7 @@
 				0423983029F468AD005530AD /* EventImage.swift */,
 				A49CA0D029F4747900153BEC /* SearchBar.swift */,
 				A49CA0D229F4748500153BEC /* RectangleImage.swift */,
+				A49CA11729F59A3600153BEC /* TextFieldStyle.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -228,6 +229,7 @@
 				A49CA0CF29F472BD00153BEC /* FindViewModel.swift in Sources */,
 				0423983829F468B8005530AD /* Event.swift in Sources */,
 				0423983129F468AD005530AD /* WithUsersImage.swift in Sources */,
+				A49CA11829F59A3600153BEC /* TextFieldStyle.swift in Sources */,
 				0423984429F46926005530AD /* ItineraryViewModel.swift in Sources */,
 				0423984129F4691B005530AD /* UserModel.swift in Sources */,
 				A49CA0D529F4749C00153BEC /* FindModel.swift in Sources */,

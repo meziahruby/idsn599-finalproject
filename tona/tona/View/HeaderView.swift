@@ -4,6 +4,8 @@
 //
 //  Created by Janae Strange on 4/23/23.
 //
+//Notes: lighter text cannot be seen here but is on app page.
+//adding friend profile pics to header for code turn-in
 
 import SwiftUI
 

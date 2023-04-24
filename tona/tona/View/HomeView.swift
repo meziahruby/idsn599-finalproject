@@ -1,11 +1,11 @@
 
-//
 //  2TripsScreen.swift
 //  MyProject
 //
 //  Designed in DetailsPro - Janae Strange
 //  Copyright © (My Organization). All rights reserved.
 //
+//more Views to be created to streamline code for turn-in
 
     import SwiftUI
 

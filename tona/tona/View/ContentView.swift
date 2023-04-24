@@ -4,6 +4,9 @@
 //
 //  Created by Meziah Cristobal on 4/10/23.
 //
+/*
+ This is the main view of the app with the three tab pages.
+ */
 
 import SwiftUI
 
@@ -14,10 +17,14 @@ struct ContentView: View {
     var body: some View {
         VStack {
             TabView{
+                HomeView()
+                    .tabItem{
+                        Label("home", systemImage: "house.fill")
+                    }
                 Itinerary()
                     .environmentObject(viewModel)
                     .tabItem{
-                        Label("plans", systemImage: "paperplane.circle.fill")
+                        Label("trips", systemImage: "paperplane.circle.fill")
                     }
                 FindView()
                     .environmentObject(findviewModel)
@@ -27,9 +34,12 @@ struct ContentView: View {
                 HomeView()
                     .tabItem{
                         Label("goal", systemImage: "globe.desk")
+=======
+                        Label("discover", systemImage: "magnifyingglass.circle.fill")
+>>>>>>> main
                     }
             }
-            .background(Color(.sRGB, red: 4/255, green: 27/255, blue: 21/255))
+
         }
     }
 }
