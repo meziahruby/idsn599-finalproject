@@ -60,48 +60,52 @@ struct HomeView: View {
                 HomeView(image: "nyc", title: "New York")
                 Spacer()
                     .frame(height: 60)
-
-
-struct HomeView: View {
-    let image: String
-    let title: String
-    
-    var body: some View {
-        ZStack {
-            Image(image)
-                .renderingMode(.original)
-                .resizable()
-                .aspectRatio(contentMode: .fill)
-                .frame(width: 304.0, height: 270)
-                .clipped()
-            VStack {
-                Spacer()
-                HStack {
-                    Text(title)
-                        .foregroundColor(.white)
-                        .font(.title3.weight(.semibold))
-                    Spacer()
-                    Image(systemName: "plus")
-                        .foregroundColor(.white)
+                
+                
+                struct HomeView: View {
+                    let image: String
+                    let title: String
+                    
+                    var body: some View {
+                        ZStack {
+                            Image(image)
+                                .renderingMode(.original)
+                                .resizable()
+                                .aspectRatio(contentMode: .fill)
+                                .frame(width: 304.0, height: 270)
+                                .clipped()
+                            VStack {
+                                Spacer()
+                                HStack {
+                                    Text(title)
+                                        .foregroundColor(.white)
+                                        .font(.title3.weight(.semibold))
+                                    Spacer()
+                                    Image(systemName: "plus")
+                                        .foregroundColor(.white)
+                                }
+                                .padding()
+                                .background(GradientBackground())
+                            }
+                        }
+                        .padding(.bottom, 16)
+                    }
                 }
-                .padding()
-                .background(GradientBackground())
+                
+                struct GradientBackground: View {
+                    var body: some View {
+                        LinearGradient(gradient: Gradient(colors: [.gray, Color(.systemGray3)]), startPoint: .leading, endPoint: .trailing)
+                            .mask(RoundedRectangle(cornerRadius: 16, style: .continuous))
+                            .padding(3)
+                    }
+                }
+                
+                struct Previews_TripsView_Previews: PreviewProvider {
+                    static var previews: some View {
+                        HomeView()
+                    }
+                }
             }
         }
-        .padding(.bottom, 16)
-    }
-}
-
-struct GradientBackground: View {
-    var body: some View {
-        LinearGradient(gradient: Gradient(colors: [.gray, Color(.systemGray3)]), startPoint: .leading, endPoint: .trailing)
-            .mask(RoundedRectangle(cornerRadius: 16, style: .continuous))
-            .padding(3)
-    }
-}
-
-struct Previews_TripsView_Previews: PreviewProvider {
-    static var previews: some View {
-        HomeView()
     }
 }
