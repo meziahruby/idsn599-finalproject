@@ -5,6 +5,10 @@
 //  Created by Njideka Akudinobi on 4/23/23.
 //
 
+/*
+ This is the style view for the Search Bar Text Field
+ */
+
 import Foundation
 import SwiftUI
 

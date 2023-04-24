@@ -4,6 +4,12 @@
 //
 //  Created by Njideka Akudinobi on 4/22/23.
 //
+/*
+ Image layout for the discovery page with button overlay. It also includes an alert when the button is clicked to notify the user that there photes have been saved.
+ 
+ Note: Future iterations of the app will include the ability for the user to add saved items to their home page
+ 
+ */
 
 import SwiftUI
 
