@@ -35,17 +35,22 @@ struct HomeView: View {
                 Text("We're Going!")
                     .font(.largeTitle.weight(.medium))
                     .foregroundColor(Color(.sRGB, red: 235/255, green: 249/255, blue: 249/255))
+                    .multilineTextAlignment(.center)
+                    .padding(.leading, 13.0)
                 HStack {
                     Spacer()
                     LocaleView(image: "paris", title: "Paris")
+                        .padding(.trailing, 100.0)
                 }
-                    LocaleView(image: "nyc", title: "New York")
+                LocaleView(image: "nyc", title: "New York")
+                    .padding(.leading, 60.0)
                 Spacer()
                     .frame(height: 60)
                 
                 Text("Can We Go?")
                 .font(.largeTitle.weight(.medium))
                 .foregroundColor(Color(.sRGB, red: 235/255, green: 249/255, blue: 249/255))
+                .padding(.leading, 30.0)
                 LocaleView(image: "sedona", title: "Sedona")
                 LocaleView(image: "finland", title: "Finland")
                 LocaleView(image: "dubai", title: "Dubai")
@@ -65,6 +70,7 @@ struct LocaleView: View {
                 .renderingMode(.original)
                 .resizable()
                 .aspectRatio(contentMode: .fill)
+                .padding()
                 .frame(width: 304.0, height: 270)
                 .clipped()
             VStack {
