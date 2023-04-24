@@ -10,7 +10,7 @@ import SwiftUI
 struct RectangleImage: View {
     
     @EnvironmentObject var viewModel: FindViewModel
-    @State private var isExpanded = false
+    @State private var showAlert = false
     
     var image: Image
     var aspect: CGFloat = 1.0
@@ -30,7 +30,7 @@ struct RectangleImage: View {
                     .overlay(
                        Button(action: {
                            // Perform action to add image to another view
-                           print("Add image to another view")
+                           self.showAlert = true
                        }, label: {
                            Image(systemName: "plus.circle.fill")
                                .font(.system(size: 16))
@@ -40,6 +40,13 @@ struct RectangleImage: View {
                                .clipShape(Circle())
                                .opacity(0.8)
                        })
+                       .alert(isPresented: $showAlert, content: {
+                           Alert(title: Text("keep calm and travel on"),
+                                 message: Text("we saved this for your next adventure :)"),
+                                 dismissButton: .default(Text("OK"))
+                           )
+                       }
+                             )
                        .padding(10)
                        .opacity(0.8),
                        alignment: .bottomTrailing
