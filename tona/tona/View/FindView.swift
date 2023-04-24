@@ -5,6 +5,7 @@
 //  Designed in DetailsPro
 //  Copyright © (My Organization). All rights reserved.
 //
+/* This is the view for the discovery page with a search bar feature. It also shows a grid view of photos based on the user's latest travel interests. */
 
 import SwiftUI
 

@@ -4,6 +4,9 @@
 //
 //  Created by Njideka Akudinobi on 4/22/23.
 //
+/*
+ This is the search bar helper view for the discovery page
+ */
 
 import SwiftUI
 

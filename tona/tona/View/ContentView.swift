@@ -4,6 +4,9 @@
 //
 //  Created by Meziah Cristobal on 4/10/23.
 //
+/*
+ This is the main view of the app with the three tab pages.
+ */
 
 import SwiftUI
 
@@ -29,7 +32,7 @@ struct ContentView: View {
                         Label("discover", systemImage: "magnifyingglass.circle.fill")
                     }
             }
-            .background(Color(.sRGB, red: 4/255, green: 27/255, blue: 21/255))
+
         }
     }
 }
