@@ -30,7 +30,7 @@ struct HeaderView: View {
                     Text("Teresa")
                         .foregroundColor(.white)
                         .font(.largeTitle)
-                    Text("reminder: dinner at 5:30pm CEST")
+                    Text("reminder: dinner at 5:30pm CET")
                         .foregroundColor(.white)
                         .font(.body)
                 }

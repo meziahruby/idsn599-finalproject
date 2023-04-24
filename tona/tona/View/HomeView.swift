@@ -43,7 +43,7 @@ struct HomeView: View {
                         .padding(.trailing, 100.0)
                 }
                 LocaleView(image: "nyc", title: "New York")
-                    .padding(.leading, 60.0)
+                    .padding(.leading, 65.0)
                 Spacer()
                     .frame(height: 60)
                 
@@ -52,11 +52,14 @@ struct HomeView: View {
                 .foregroundColor(Color(.sRGB, red: 235/255, green: 249/255, blue: 249/255))
                 .padding(.leading, 30.0)
                 LocaleView(image: "sedona", title: "Sedona")
+                    .padding(.trailing, 100.0)
                 LocaleView(image: "finland", title: "Finland")
+                    .padding(.leading, 65.0)
                 LocaleView(image: "dubai", title: "Dubai")
+                    .padding(.trailing, 100.0)
             }
         }
-        .background(Color(.sRGB, red: 4/255, green: 27/255, blue: 21/255))
+        .background(Color(.sRGB, red: 4/255, green: 27/255, blue: 21/255)) // background color
     }
 }
 
