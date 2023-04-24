@@ -4,7 +4,9 @@
 //
 //  Created by Njideka Akudinobi on 4/22/23.
 //
-
+/*
+ Model data for the Discovery page
+ */
 
 import Foundation
 import SwiftUI
