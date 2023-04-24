@@ -52,8 +52,11 @@ struct TripsScreen: View {
                 Text("We're Going!")
                     .font(.largeTitle.weight(.medium))
                     .foregroundColor(Color(.sRGB, red: 235/255, green: 249/255, blue: 249/255))
-                TripView(image: "paris", title: "Paris")
-                    .padding(.all)
+                HStack {
+                    Spacer()
+                    TripView(image: "paris", title: "Paris")
+                        .padding(.all)
+                }
                 TripView(image: "nyc", title: "New York")
                 Spacer()
                     .frame(height: 60)
@@ -61,6 +64,8 @@ struct TripsScreen: View {
                     .font(.largeTitle.weight(.medium))
                     .foregroundColor(Color(.sRGB, red: 235/255, green: 249/255, blue: 249/255))
                 TripView(image: "sedona", title: "Sedona")
+                TripView(image: "finland", title: "Finland")
+                TripView(image: "   dubai", title: "Dubai")
             }
             .padding()
             .background(Color(.sRGB, red: 4/255, green: 27/255, blue: 21/255))
@@ -108,6 +113,6 @@ struct GradientBackground: View {
 
 struct Previews_TripsView_Previews: PreviewProvider {
     static var previews: some View {
-        TripsScreen()
+        Home()
     }
 }
