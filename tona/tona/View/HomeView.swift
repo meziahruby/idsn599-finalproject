@@ -5,7 +5,9 @@
 //  Designed in DetailsPro - Janae Strange
 //  Copyright © (My Organization). All rights reserved.
 //
-//more Views to be created to streamline code for turn-in
+//homscreen for tona app.
+//with more time build out:
+//Doug - this is the work I could accomplish. Deka and Mezhia did amazing work on their pages/views so please
 
 import SwiftUI
 
@@ -87,7 +89,7 @@ struct LocaleView: View {
                         .foregroundColor(.white)
                 }
                 .padding()
-                .background(GradientBackground())
+               
             }
         }
         .padding(.bottom, 16)
