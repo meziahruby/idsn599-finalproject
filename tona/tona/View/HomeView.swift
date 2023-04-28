@@ -7,8 +7,7 @@
 //
 //more Views to be created to streamline code for turn-in
 
-    import SwiftUI
-
+import SwiftUI
 
 struct TopView: View {
     var body: some View {
@@ -64,6 +63,7 @@ struct HomeView: View {
 }
 
 struct LocaleView: View {
+
     let image: String
     let title: String
     

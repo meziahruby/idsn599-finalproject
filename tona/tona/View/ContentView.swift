@@ -18,6 +18,7 @@ struct ContentView: View {
         VStack {
             TabView{
                 HomeView()
+
                     .tabItem{
                         Label("home", systemImage: "house.fill")
                     }
@@ -29,14 +30,9 @@ struct ContentView: View {
                 FindView()
                     .environmentObject(findviewModel)
                     .tabItem{
-                        Label("find", systemImage: "magnifyingglass.circle.fill")
-                    }
-                HomeView()
-                    .tabItem{
-                        Label("goal", systemImage: "globe.desk")
-=======
+
                         Label("discover", systemImage: "magnifyingglass.circle.fill")
->>>>>>> main
+
                     }
             }
 
