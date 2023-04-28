@@ -95,6 +95,7 @@ struct LocaleView: View {
         .padding(.bottom, 16)
     }
 }
+// this gradient border was meant to encircle each Image
 struct GradientBackground: View {
     var body: some View {
         LinearGradient(gradient: Gradient(colors: [.gray, Color(.systemGray3)]), startPoint: .leading, endPoint: .trailing)

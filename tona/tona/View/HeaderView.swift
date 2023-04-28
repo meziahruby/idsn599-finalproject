@@ -25,7 +25,7 @@ struct HeaderView: View {
                     .renderingMode(.original)
                     .resizable()
                     .aspectRatio(contentMode: .fill)
-                    .padding(.trailing)
+                    .padding(.leading, 15.0)
                     .frame(width: 130, height: 120, alignment: .center)
                     .clipped()
                 VStack(alignment: .leading, spacing: 8) {
