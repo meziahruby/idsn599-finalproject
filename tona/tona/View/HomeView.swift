@@ -5,9 +5,10 @@
 //  Designed in DetailsPro - Janae Strange
 //  Copyright © (My Organization). All rights reserved.
 //
-//homscreen for tona app.
-//with more time build out:
-//Doug - this is the work I could accomplish. Deka and Mezhia did amazing work on their pages/views so please
+//homescreen for tona app.
+//Doug - this is the work I could accomplish. Deka and Mezhia did amazing work on their pages/views so please give them the grade tey deserve. :)
+//Simple page but proud of the adding and aligning of iamges, using the HeaderView. Would have liked to add a View for the images and text/icon overlay.
+//Meziah was invaluable
 
 import SwiftUI
 
@@ -60,7 +61,7 @@ struct HomeView: View {
                     .padding(.trailing, 100.0)
             }
         }
-        .background(Color(.sRGB, red: 4/255, green: 27/255, blue: 21/255)) // background color
+        .background(Color(.sRGB, red: 4/255, green: 27/255, blue: 21/255)) //background color
     }
 }
 
@@ -69,30 +70,33 @@ struct LocaleView: View {
     let image: String
     let title: String
     
+    //goal was to link the "+" to the Itinerary page
     var body: some View {
-        ZStack {
-            Image(image)
-                .renderingMode(.original)
-                .resizable()
-                .aspectRatio(contentMode: .fill)
-                .padding()
-                .frame(width: 304.0, height: 270)
-                .clipped()
-            VStack {
-                Spacer()
-                HStack {
-                    Text(title)
-                        .foregroundColor(.white)
-                        .font(.title3.weight(.semibold))
+        NavigationLink(destination: Itinerary()) {
+            ZStack {
+                Image(image)
+                    .renderingMode(.original)
+                    .resizable()
+                    .aspectRatio(contentMode: .fill)
+                    .padding()
+                    .frame(width: 304.0, height: 270)
+                    .clipped()
+                VStack {
                     Spacer()
-                    Image(systemName: "plus")
-                        .foregroundColor(.white)
+                    HStack {
+                        Text(title)
+                            .foregroundColor(.white)
+                            .font(.title3.weight(.semibold))
+                        Spacer()
+                        Image(systemName: "plus")
+                            .foregroundColor(.white)
+                    }
+                    .padding()
+                    
                 }
-                .padding()
-               
             }
+            .padding(.bottom, 16)
         }
-        .padding(.bottom, 16)
     }
 }
 // this gradient border was meant to encircle each Image
