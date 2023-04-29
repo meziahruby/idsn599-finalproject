@@ -20,7 +20,6 @@ struct EventRow: View {
                 Rectangle()
                     .frame(width: 1)
                     .foregroundColor(tonaGray)
-                    
             }
             
             EventImage(event.image)

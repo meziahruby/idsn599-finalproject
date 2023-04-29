@@ -13,22 +13,18 @@
 		0423982629EE3EA0005530AD /* (null) in Sources */ = {isa = PBXBuildFile; };
 		0423982B29F44127005530AD /* (null) in Sources */ = {isa = PBXBuildFile; };
 		0423982D29F446D3005530AD /* (null) in Sources */ = {isa = PBXBuildFile; };
-		0423983129F468AD005530AD /* WithUsersImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0423982F29F468AD005530AD /* WithUsersImage.swift */; };
-		0423983229F468AD005530AD /* EventImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0423983029F468AD005530AD /* EventImage.swift */; };
-		0423983829F468B8005530AD /* EventRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0423983429F468B8005530AD /* EventRow.swift */; };
 		0423983929F468B8005530AD /* FindView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0423983529F468B8005530AD /* FindView.swift */; };
 		0423983B29F468B8005530AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0423983729F468B8005530AD /* ContentView.swift */; };
 		0423984129F4691B005530AD /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0423983E29F4691B005530AD /* UserModel.swift */; };
-		0423984429F46926005530AD /* ItineraryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0423984329F46926005530AD /* ItineraryViewModel.swift */; };
-		045133DE29F61D7E007B7CFD /* PlannedTrips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045133DD29F61D7E007B7CFD /* PlannedTrips.swift */; };
-		045133E029F75004007B7CFD /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045133DF29F75004007B7CFD /* Colors.swift */; };
+		04430CDD29FCD56B006A2BAF /* EventRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04430CDC29FCD56B006A2BAF /* EventRow.swift */; };
+		04430CDF29FCD5A4006A2BAF /* WithUsersImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04430CDE29FCD5A4006A2BAF /* WithUsersImage.swift */; };
+		045133DE29F61D7E007B7CFD /* (null) in Sources */ = {isa = PBXBuildFile; };
+		045133E029F75004007B7CFD /* (null) in Sources */ = {isa = PBXBuildFile; };
 		046E68BC29EE323A0004F0B3 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		0476F4E929FCCA1A00E43204 /* EventRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0476F4E629FCCA1A00E43204 /* EventRow.swift */; };
 		0476F4EA29FCCA1A00E43204 /* Itinerary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0476F4E729FCCA1A00E43204 /* Itinerary.swift */; };
 		0476F4EB29FCCA1A00E43204 /* PlannedTrips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0476F4E829FCCA1A00E43204 /* PlannedTrips.swift */; };
 		0476F4EF29FCCA7B00E43204 /* EventImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0476F4EC29FCCA7B00E43204 /* EventImage.swift */; };
 		0476F4F029FCCA7B00E43204 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0476F4ED29FCCA7B00E43204 /* Colors.swift */; };
-		0476F4F129FCCA7B00E43204 /* WithUsersImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0476F4EE29FCCA7B00E43204 /* WithUsersImage.swift */; };
 		0476F4F329FCCAA000E43204 /* ItineraryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0476F4F229FCCAA000E43204 /* ItineraryViewModel.swift */; };
 		0476F4F529FCCAC200E43204 /* ItineraryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0476F4F429FCCAC200E43204 /* ItineraryModel.swift */; };
 		04EE122229E5137D006D45C3 /* tonaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EE122129E5137D006D45C3 /* tonaApp.swift */; };
@@ -44,18 +40,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0423982F29F468AD005530AD /* WithUsersImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WithUsersImage.swift; sourceTree = "<group>"; };
-		0423983029F468AD005530AD /* EventImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventImage.swift; sourceTree = "<group>"; };
-		0423983429F468B8005530AD /* EventRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventRow.swift; sourceTree = "<group>"; };
 		0423983529F468B8005530AD /* FindView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindView.swift; sourceTree = "<group>"; };
 		0423983729F468B8005530AD /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0423983E29F4691B005530AD /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
-		0476F4E629FCCA1A00E43204 /* EventRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EventRow.swift; path = ../../../../tona/View/EventRow.swift; sourceTree = "<group>"; };
+		04430CDC29FCD56B006A2BAF /* EventRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventRow.swift; sourceTree = "<group>"; };
+		04430CDE29FCD5A4006A2BAF /* WithUsersImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WithUsersImage.swift; sourceTree = "<group>"; };
 		0476F4E729FCCA1A00E43204 /* Itinerary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Itinerary.swift; sourceTree = "<group>"; };
 		0476F4E829FCCA1A00E43204 /* PlannedTrips.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlannedTrips.swift; path = ../../../../tona/View/PlannedTrips.swift; sourceTree = "<group>"; };
 		0476F4EC29FCCA7B00E43204 /* EventImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventImage.swift; sourceTree = "<group>"; };
 		0476F4ED29FCCA7B00E43204 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Colors.swift; path = ../../../../tona/Helper/Colors.swift; sourceTree = "<group>"; };
-		0476F4EE29FCCA7B00E43204 /* WithUsersImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WithUsersImage.swift; sourceTree = "<group>"; };
 		0476F4F229FCCAA000E43204 /* ItineraryViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItineraryViewModel.swift; sourceTree = "<group>"; };
 		0476F4F429FCCAC200E43204 /* ItineraryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItineraryModel.swift; sourceTree = "<group>"; };
 		04EE121E29E5137D006D45C3 /* tona.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tona.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,13 +89,12 @@
 		0423982E29F468AD005530AD /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				04430CDE29FCD5A4006A2BAF /* WithUsersImage.swift */,
 				0476F4ED29FCCA7B00E43204 /* Colors.swift */,
 				0476F4EC29FCCA7B00E43204 /* EventImage.swift */,
-				0476F4EE29FCCA7B00E43204 /* WithUsersImage.swift */,
 				A49CA0D029F4747900153BEC /* SearchBar.swift */,
 				A49CA0D229F4748500153BEC /* RectangleImage.swift */,
 				A49CA11729F59A3600153BEC /* TextFieldStyle.swift */,
-				045133DF29F75004007B7CFD /* Colors.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -110,9 +102,9 @@
 		0423983329F468B8005530AD /* View */ = {
 			isa = PBXGroup;
 			children = (
-				0476F4E629FCCA1A00E43204 /* EventRow.swift */,
 				0476F4E729FCCA1A00E43204 /* Itinerary.swift */,
 				0476F4E829FCCA1A00E43204 /* PlannedTrips.swift */,
+				04430CDC29FCD56B006A2BAF /* EventRow.swift */,
 				AEFDEC1C29F4D94B0027ECB8 /* HomeView.swift */,
 				AEFDEC2029F606AE0027ECB8 /* HeaderView.swift */,
 				0423983529F468B8005530AD /* FindView.swift */,
@@ -197,7 +189,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
-				LastUpgradeCheck = 1420;
+				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					04EE121D29E5137D006D45C3 = {
 						CreatedOnToolsVersion = 14.2;
@@ -239,16 +231,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04430CDF29FCD5A4006A2BAF /* WithUsersImage.swift in Sources */,
 				046E68BC29EE323A0004F0B3 /* (null) in Sources */,
+				04430CDD29FCD56B006A2BAF /* EventRow.swift in Sources */,
 				0423983929F468B8005530AD /* FindView.swift in Sources */,
 				0423982B29F44127005530AD /* (null) in Sources */,
 				0476F4EF29FCCA7B00E43204 /* EventImage.swift in Sources */,
 				0423982429EE3D30005530AD /* (null) in Sources */,
 				A49CA0CF29F472BD00153BEC /* FindViewModel.swift in Sources */,
-				045133E029F75004007B7CFD /* Colors.swift in Sources */,
-				0423983829F468B8005530AD /* EventRow.swift in Sources */,
-				0423983129F468AD005530AD /* WithUsersImage.swift in Sources */,
-				045133DE29F61D7E007B7CFD /* PlannedTrips.swift in Sources */,
+				045133E029F75004007B7CFD /* (null) in Sources */,
+				045133DE29F61D7E007B7CFD /* (null) in Sources */,
 				A49CA11829F59A3600153BEC /* TextFieldStyle.swift in Sources */,
 				0476F4F529FCCAC200E43204 /* ItineraryModel.swift in Sources */,
 				0476F4EA29FCCA1A00E43204 /* Itinerary.swift in Sources */,
@@ -262,12 +254,10 @@
 				0423982129EE3610005530AD /* (null) in Sources */,
 				0423983B29F468B8005530AD /* ContentView.swift in Sources */,
 				0423982629EE3EA0005530AD /* (null) in Sources */,
-				0476F4E929FCCA1A00E43204 /* EventRow.swift in Sources */,
 				0476F4F029FCCA7B00E43204 /* Colors.swift in Sources */,
 				A49CA0D129F4747900153BEC /* SearchBar.swift in Sources */,
 				0423982D29F446D3005530AD /* (null) in Sources */,
 				0423981F29EE353C005530AD /* (null) in Sources */,
-				0476F4F129FCCA7B00E43204 /* WithUsersImage.swift in Sources */,
 				0476F4F329FCCAA000E43204 /* ItineraryViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,6 +298,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -366,6 +357,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -392,6 +384,7 @@
 				CODE_SIGN_ENTITLEMENTS = tona/tona.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"tona/Preview Content\"";
 				DEVELOPMENT_TEAM = 5KVVJ6U5J4;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -430,6 +423,7 @@
 				CODE_SIGN_ENTITLEMENTS = tona/tona.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"tona/Preview Content\"";
 				DEVELOPMENT_TEAM = 5KVVJ6U5J4;
 				ENABLE_HARDENED_RUNTIME = YES;

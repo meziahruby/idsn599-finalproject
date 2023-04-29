@@ -16,6 +16,7 @@ struct Itinerary: View {
     var itinerary: ItineraryModel
     
     var body: some View {
+        
         ScrollView {
             VStack {
                 HStack {
@@ -28,7 +29,8 @@ struct Itinerary: View {
                 .padding(.top, 25)
                 .padding(.horizontal)
                 
-                Text("Tuesday, May 2")
+                Text(itinerary.events[0].date
+                        .formatted(date: .complete, time: .omitted))
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .padding()
                     .font(.title.weight(.medium))
@@ -56,7 +58,7 @@ struct Itinerary_Previews: PreviewProvider {
                     EventModel(
                         name: "Louvre Museum",
                         date: Date(timeIntervalSince1970: 1683043200), // May 2, 9am
-                        image: Image("paris"),
+                        image: Image("Paris"),
                         withUsers: [UserModel(user: "Friend1"), UserModel(user: "howl"), UserModel(user: "Friend2")]
                     )])
         Itinerary(itinerary: itinerarySample)

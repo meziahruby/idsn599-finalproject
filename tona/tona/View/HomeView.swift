@@ -45,10 +45,10 @@ struct HomeView: View {
                 HStack {
                     Spacer()
                     // Meziah's Note: I had to add itineraryData here as a parameter to fully enable the navigation
-                    LocaleView(image: "paris", title: "Paris", itineraryData: viewModel.itinerariesData[0])
+                    LocaleView(image: "Paris", title: "Paris", itineraryData: viewModel.itinerariesData[0])
                         .padding(.trailing, 100.0)
                     }
-                    LocaleView(image: "nyc", title: "New York", itineraryData: viewModel.itinerariesData[1])
+                    LocaleView(image: "New York City", title: "New York City", itineraryData: viewModel.itinerariesData[1])
                         .padding(.leading, 65.0)
                 Spacer()
                     .frame(height: 60)
@@ -65,7 +65,7 @@ struct HomeView: View {
                     .padding(.trailing, 100.0)
             }
         }
-        .background(Color(.sRGB, red: 4/255, green: 27/255, blue: 21/255)) //background color
+        .background(tonaTeal) //background color
     }
 }
 
@@ -115,6 +115,6 @@ struct GradientBackground: View {
 }
 struct Previews_TripsView_Previews: PreviewProvider {
     static var previews: some View {
-        HomeView()
+        HomeView().environmentObject(ItineraryViewModel())
     }
 }
