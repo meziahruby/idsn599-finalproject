@@ -13,9 +13,15 @@
 		0423982629EE3EA0005530AD /* (null) in Sources */ = {isa = PBXBuildFile; };
 		0423982B29F44127005530AD /* (null) in Sources */ = {isa = PBXBuildFile; };
 		0423982D29F446D3005530AD /* (null) in Sources */ = {isa = PBXBuildFile; };
+		0423983129F468AD005530AD /* WithUsersImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0423982F29F468AD005530AD /* WithUsersImage.swift */; };
+		0423983229F468AD005530AD /* EventImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0423983029F468AD005530AD /* EventImage.swift */; };
+		0423983829F468B8005530AD /* EventRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0423983429F468B8005530AD /* EventRow.swift */; };
 		0423983929F468B8005530AD /* FindView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0423983529F468B8005530AD /* FindView.swift */; };
 		0423983B29F468B8005530AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0423983729F468B8005530AD /* ContentView.swift */; };
 		0423984129F4691B005530AD /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0423983E29F4691B005530AD /* UserModel.swift */; };
+		0423984429F46926005530AD /* ItineraryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0423984329F46926005530AD /* ItineraryViewModel.swift */; };
+		045133DE29F61D7E007B7CFD /* PlannedTrips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045133DD29F61D7E007B7CFD /* PlannedTrips.swift */; };
+		045133E029F75004007B7CFD /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045133DF29F75004007B7CFD /* Colors.swift */; };
 		046E68BC29EE323A0004F0B3 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		0476F4E929FCCA1A00E43204 /* EventRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0476F4E629FCCA1A00E43204 /* EventRow.swift */; };
 		0476F4EA29FCCA1A00E43204 /* Itinerary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0476F4E729FCCA1A00E43204 /* Itinerary.swift */; };
@@ -38,6 +44,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0423982F29F468AD005530AD /* WithUsersImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WithUsersImage.swift; sourceTree = "<group>"; };
+		0423983029F468AD005530AD /* EventImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventImage.swift; sourceTree = "<group>"; };
+		0423983429F468B8005530AD /* EventRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventRow.swift; sourceTree = "<group>"; };
 		0423983529F468B8005530AD /* FindView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindView.swift; sourceTree = "<group>"; };
 		0423983729F468B8005530AD /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0423983E29F4691B005530AD /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
@@ -93,6 +102,7 @@
 				A49CA0D029F4747900153BEC /* SearchBar.swift */,
 				A49CA0D229F4748500153BEC /* RectangleImage.swift */,
 				A49CA11729F59A3600153BEC /* TextFieldStyle.swift */,
+				045133DF29F75004007B7CFD /* Colors.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -235,6 +245,10 @@
 				0476F4EF29FCCA7B00E43204 /* EventImage.swift in Sources */,
 				0423982429EE3D30005530AD /* (null) in Sources */,
 				A49CA0CF29F472BD00153BEC /* FindViewModel.swift in Sources */,
+				045133E029F75004007B7CFD /* Colors.swift in Sources */,
+				0423983829F468B8005530AD /* EventRow.swift in Sources */,
+				0423983129F468AD005530AD /* WithUsersImage.swift in Sources */,
+				045133DE29F61D7E007B7CFD /* PlannedTrips.swift in Sources */,
 				A49CA11829F59A3600153BEC /* TextFieldStyle.swift in Sources */,
 				0476F4F529FCCAC200E43204 /* ItineraryModel.swift in Sources */,
 				0476F4EA29FCCA1A00E43204 /* Itinerary.swift in Sources */,

@@ -7,6 +7,7 @@
 //
 //  Created by Meziah Cristobal on 4/17/23.
 //
+//  The user's schedule for their planned trips
 
 import SwiftUI
 

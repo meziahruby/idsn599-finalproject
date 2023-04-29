@@ -72,6 +72,7 @@ struct ItineraryModel: Identifiable {
     var city: String
     var dates: String // Ideally dates will be a computed value but for time's sake, it's mocked here
     var events: [EventModel]
+    var dates: String
 }
 
 struct EventModel: Identifiable {
