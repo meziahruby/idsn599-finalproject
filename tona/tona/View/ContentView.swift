@@ -21,7 +21,7 @@ struct ContentView: View {
                     .tabItem{
                         Label("home", systemImage: "house.fill")
                     }
-                Itinerary()
+                PlannedTrips()
                     .environmentObject(viewModel)
                     .tabItem{
                         Label("trips", systemImage: "paperplane.circle.fill")

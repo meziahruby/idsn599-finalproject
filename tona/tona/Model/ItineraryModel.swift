@@ -13,8 +13,8 @@ struct ItineraryData {
     // Using a `get` here so parisEvents and nycEvents can be used as computed properties
     var itineraries: [ItineraryModel] {
         get {
-            [ItineraryModel(city: "paris", events: parisEvents),
-             ItineraryModel(city: "nyc", events: nycEvents)]
+            [ItineraryModel(city: "Paris", events: parisEvents, dates: "May 2-7"),
+             ItineraryModel(city: "New York City", events: nycEvents, dates: "Oct 10-15")]
         }
     }
     
@@ -24,11 +24,11 @@ struct ItineraryData {
             EventModel(
                 name: "Louvre Museum",
                 date: Date(timeIntervalSince1970: 1683043200), // May 2, 9am
-                image: Image("paris"),
+                image: Image("Paris"),
                 withUsers: [UserModel(user: "Friend1"), UserModel(user: "howl"), UserModel(user: "Friend2")]
             ),
             EventModel(
-                name: "Walk around Palais Royal Metro Station",
+                name: "Walk around Palais Royal Metro Station and take pictures",
                 date: Date(timeIntervalSince1970: 1683052200), // May 2, 11:30am
                 image: Image("paris7"),
                 withUsers: [UserModel(user: "Friend1"), UserModel(user: "howl"), UserModel(user: "Friend2")]
@@ -70,6 +70,7 @@ struct ItineraryModel: Identifiable {
     var id: UUID = UUID()
     var city: String
     var events: [EventModel]
+    var dates: String
 }
 
 struct EventModel: Identifiable {

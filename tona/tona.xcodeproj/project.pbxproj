@@ -15,14 +15,15 @@
 		0423982D29F446D3005530AD /* (null) in Sources */ = {isa = PBXBuildFile; };
 		0423983129F468AD005530AD /* WithUsersImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0423982F29F468AD005530AD /* WithUsersImage.swift */; };
 		0423983229F468AD005530AD /* EventImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0423983029F468AD005530AD /* EventImage.swift */; };
-		0423983829F468B8005530AD /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0423983429F468B8005530AD /* Event.swift */; };
+		0423983829F468B8005530AD /* EventRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0423983429F468B8005530AD /* EventRow.swift */; };
 		0423983929F468B8005530AD /* FindView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0423983529F468B8005530AD /* FindView.swift */; };
 		0423983A29F468B8005530AD /* Itinerary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0423983629F468B8005530AD /* Itinerary.swift */; };
 		0423983B29F468B8005530AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0423983729F468B8005530AD /* ContentView.swift */; };
 		0423983F29F4691B005530AD /* ItineraryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0423983C29F4691B005530AD /* ItineraryModel.swift */; };
 		0423984129F4691B005530AD /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0423983E29F4691B005530AD /* UserModel.swift */; };
 		0423984429F46926005530AD /* ItineraryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0423984329F46926005530AD /* ItineraryViewModel.swift */; };
-		045133DE29F61D7E007B7CFD /* Trips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045133DD29F61D7E007B7CFD /* Trips.swift */; };
+		045133DE29F61D7E007B7CFD /* PlannedTrips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045133DD29F61D7E007B7CFD /* PlannedTrips.swift */; };
+		045133E029F75004007B7CFD /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045133DF29F75004007B7CFD /* Colors.swift */; };
 		046E68BC29EE323A0004F0B3 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		04EE122229E5137D006D45C3 /* tonaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EE122129E5137D006D45C3 /* tonaApp.swift */; };
 		04EE122629E5137E006D45C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04EE122529E5137E006D45C3 /* Assets.xcassets */; };
@@ -38,14 +39,15 @@
 /* Begin PBXFileReference section */
 		0423982F29F468AD005530AD /* WithUsersImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WithUsersImage.swift; sourceTree = "<group>"; };
 		0423983029F468AD005530AD /* EventImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventImage.swift; sourceTree = "<group>"; };
-		0423983429F468B8005530AD /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		0423983429F468B8005530AD /* EventRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventRow.swift; sourceTree = "<group>"; };
 		0423983529F468B8005530AD /* FindView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindView.swift; sourceTree = "<group>"; };
 		0423983629F468B8005530AD /* Itinerary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Itinerary.swift; sourceTree = "<group>"; };
 		0423983729F468B8005530AD /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0423983C29F4691B005530AD /* ItineraryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItineraryModel.swift; sourceTree = "<group>"; };
 		0423983E29F4691B005530AD /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		0423984329F46926005530AD /* ItineraryViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItineraryViewModel.swift; sourceTree = "<group>"; };
-		045133DD29F61D7E007B7CFD /* Trips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trips.swift; sourceTree = "<group>"; };
+		045133DD29F61D7E007B7CFD /* PlannedTrips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannedTrips.swift; sourceTree = "<group>"; };
+		045133DF29F75004007B7CFD /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		04EE121E29E5137D006D45C3 /* tona.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tona.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04EE122129E5137D006D45C3 /* tonaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tonaApp.swift; sourceTree = "<group>"; };
 		04EE122529E5137E006D45C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 				A49CA0D029F4747900153BEC /* SearchBar.swift */,
 				A49CA0D229F4748500153BEC /* RectangleImage.swift */,
 				A49CA11729F59A3600153BEC /* TextFieldStyle.swift */,
+				045133DF29F75004007B7CFD /* Colors.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -96,8 +99,8 @@
 			isa = PBXGroup;
 			children = (
 				AEFDEC1C29F4D94B0027ECB8 /* TripsView.swift */,
-				0423983429F468B8005530AD /* Event.swift */,
-				045133DD29F61D7E007B7CFD /* Trips.swift */,
+				0423983429F468B8005530AD /* EventRow.swift */,
+				045133DD29F61D7E007B7CFD /* PlannedTrips.swift */,
 				0423983529F468B8005530AD /* FindView.swift */,
 				0423983629F468B8005530AD /* Itinerary.swift */,
 				0423983729F468B8005530AD /* ContentView.swift */,
@@ -229,9 +232,10 @@
 				0423982429EE3D30005530AD /* (null) in Sources */,
 				0423983A29F468B8005530AD /* Itinerary.swift in Sources */,
 				A49CA0CF29F472BD00153BEC /* FindViewModel.swift in Sources */,
-				0423983829F468B8005530AD /* Event.swift in Sources */,
+				045133E029F75004007B7CFD /* Colors.swift in Sources */,
+				0423983829F468B8005530AD /* EventRow.swift in Sources */,
 				0423983129F468AD005530AD /* WithUsersImage.swift in Sources */,
-				045133DE29F61D7E007B7CFD /* Trips.swift in Sources */,
+				045133DE29F61D7E007B7CFD /* PlannedTrips.swift in Sources */,
 				A49CA11829F59A3600153BEC /* TextFieldStyle.swift in Sources */,
 				0423984429F46926005530AD /* ItineraryViewModel.swift in Sources */,
 				0423984129F4691B005530AD /* UserModel.swift in Sources */,
