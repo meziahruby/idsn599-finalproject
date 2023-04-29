@@ -13,22 +13,23 @@ struct ItineraryData {
     // Using a `get` here so parisEvents and nycEvents can be used as computed properties
     var itineraries: [ItineraryModel] {
         get {
-            [ItineraryModel(city: "paris", events: parisEvents),
-             ItineraryModel(city: "nyc", events: nycEvents)]
+            [ItineraryModel(city: "Paris", dates: "May 2-7", events: parisEvents),
+             ItineraryModel(city: "New York City", dates: "Oct 10-15", events: nycEvents)]
         }
     }
     
     var nycEvents: [EventModel] = []
     
+    // To set a specific time and date, I used a regular human time to `timeIntervalSince1970` converter
     var parisEvents: [EventModel] = [
             EventModel(
                 name: "Louvre Museum",
                 date: Date(timeIntervalSince1970: 1683043200), // May 2, 9am
-                image: Image("paris"),
+                image: Image("Paris"),
                 withUsers: [UserModel(user: "Friend1"), UserModel(user: "howl"), UserModel(user: "Friend2")]
             ),
             EventModel(
-                name: "Walk around Palais Royal Metro Station",
+                name: "Walk around Palais Royal Metro Station and take pictures",
                 date: Date(timeIntervalSince1970: 1683052200), // May 2, 11:30am
                 image: Image("paris7"),
                 withUsers: [UserModel(user: "Friend1"), UserModel(user: "howl"), UserModel(user: "Friend2")]
@@ -69,6 +70,7 @@ struct ItineraryData {
 struct ItineraryModel: Identifiable {
     var id: UUID = UUID()
     var city: String
+    var dates: String // Ideally dates will be a computed value but for time's sake, it's mocked here
     var events: [EventModel]
 }
 

@@ -4,6 +4,7 @@
 //
 //  Created by Meziah Cristobal on 4/22/23.
 //
+//  Styles the event images in the Itinerary timeline
 
 import SwiftUI
 
@@ -24,7 +25,7 @@ struct EventImage: View {
             .mask {
                 RoundedRectangle(cornerRadius: 16, style: .continuous)
             }
-            .padding(.bottom)
+            .padding(.bottom, 15) // Adds space between events
     }
 }
 

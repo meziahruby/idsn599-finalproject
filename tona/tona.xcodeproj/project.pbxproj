@@ -13,17 +13,18 @@
 		0423982629EE3EA0005530AD /* (null) in Sources */ = {isa = PBXBuildFile; };
 		0423982B29F44127005530AD /* (null) in Sources */ = {isa = PBXBuildFile; };
 		0423982D29F446D3005530AD /* (null) in Sources */ = {isa = PBXBuildFile; };
-		0423983129F468AD005530AD /* WithUsersImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0423982F29F468AD005530AD /* WithUsersImage.swift */; };
-		0423983229F468AD005530AD /* EventImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0423983029F468AD005530AD /* EventImage.swift */; };
-		0423983829F468B8005530AD /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0423983429F468B8005530AD /* Event.swift */; };
 		0423983929F468B8005530AD /* FindView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0423983529F468B8005530AD /* FindView.swift */; };
-		0423983A29F468B8005530AD /* Itinerary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0423983629F468B8005530AD /* Itinerary.swift */; };
 		0423983B29F468B8005530AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0423983729F468B8005530AD /* ContentView.swift */; };
-		0423983F29F4691B005530AD /* ItineraryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0423983C29F4691B005530AD /* ItineraryModel.swift */; };
 		0423984129F4691B005530AD /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0423983E29F4691B005530AD /* UserModel.swift */; };
-		0423984429F46926005530AD /* ItineraryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0423984329F46926005530AD /* ItineraryViewModel.swift */; };
-		045133DE29F61D7E007B7CFD /* Trips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045133DD29F61D7E007B7CFD /* Trips.swift */; };
 		046E68BC29EE323A0004F0B3 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		0476F4E929FCCA1A00E43204 /* EventRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0476F4E629FCCA1A00E43204 /* EventRow.swift */; };
+		0476F4EA29FCCA1A00E43204 /* Itinerary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0476F4E729FCCA1A00E43204 /* Itinerary.swift */; };
+		0476F4EB29FCCA1A00E43204 /* PlannedTrips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0476F4E829FCCA1A00E43204 /* PlannedTrips.swift */; };
+		0476F4EF29FCCA7B00E43204 /* EventImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0476F4EC29FCCA7B00E43204 /* EventImage.swift */; };
+		0476F4F029FCCA7B00E43204 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0476F4ED29FCCA7B00E43204 /* Colors.swift */; };
+		0476F4F129FCCA7B00E43204 /* WithUsersImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0476F4EE29FCCA7B00E43204 /* WithUsersImage.swift */; };
+		0476F4F329FCCAA000E43204 /* ItineraryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0476F4F229FCCAA000E43204 /* ItineraryViewModel.swift */; };
+		0476F4F529FCCAC200E43204 /* ItineraryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0476F4F429FCCAC200E43204 /* ItineraryModel.swift */; };
 		04EE122229E5137D006D45C3 /* tonaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EE122129E5137D006D45C3 /* tonaApp.swift */; };
 		04EE122629E5137E006D45C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04EE122529E5137E006D45C3 /* Assets.xcassets */; };
 		04EE122A29E5137E006D45C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04EE122929E5137E006D45C3 /* Preview Assets.xcassets */; };
@@ -31,24 +32,23 @@
 		A49CA0D129F4747900153BEC /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49CA0D029F4747900153BEC /* SearchBar.swift */; };
 		A49CA0D329F4748500153BEC /* RectangleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49CA0D229F4748500153BEC /* RectangleImage.swift */; };
 		A49CA0D529F4749C00153BEC /* FindModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49CA0D429F4749C00153BEC /* FindModel.swift */; };
-
+		A49CA11829F59A3600153BEC /* TextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49CA11729F59A3600153BEC /* TextFieldStyle.swift */; };
 		AEFDEC1D29F4D94B0027ECB8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFDEC1C29F4D94B0027ECB8 /* HomeView.swift */; };
 		AEFDEC2129F606AF0027ECB8 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFDEC2029F606AE0027ECB8 /* HeaderView.swift */; };
-		A49CA11829F59A3600153BEC /* TextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49CA11729F59A3600153BEC /* TextFieldStyle.swift */; };
-
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0423982F29F468AD005530AD /* WithUsersImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WithUsersImage.swift; sourceTree = "<group>"; };
-		0423983029F468AD005530AD /* EventImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventImage.swift; sourceTree = "<group>"; };
-		0423983429F468B8005530AD /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		0423983529F468B8005530AD /* FindView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindView.swift; sourceTree = "<group>"; };
-		0423983629F468B8005530AD /* Itinerary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Itinerary.swift; sourceTree = "<group>"; };
 		0423983729F468B8005530AD /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		0423983C29F4691B005530AD /* ItineraryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItineraryModel.swift; sourceTree = "<group>"; };
 		0423983E29F4691B005530AD /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
-		0423984329F46926005530AD /* ItineraryViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItineraryViewModel.swift; sourceTree = "<group>"; };
-		045133DD29F61D7E007B7CFD /* Trips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trips.swift; sourceTree = "<group>"; };
+		0476F4E629FCCA1A00E43204 /* EventRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EventRow.swift; path = ../../../../tona/View/EventRow.swift; sourceTree = "<group>"; };
+		0476F4E729FCCA1A00E43204 /* Itinerary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Itinerary.swift; sourceTree = "<group>"; };
+		0476F4E829FCCA1A00E43204 /* PlannedTrips.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlannedTrips.swift; path = ../../../../tona/View/PlannedTrips.swift; sourceTree = "<group>"; };
+		0476F4EC29FCCA7B00E43204 /* EventImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventImage.swift; sourceTree = "<group>"; };
+		0476F4ED29FCCA7B00E43204 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Colors.swift; path = ../../../../tona/Helper/Colors.swift; sourceTree = "<group>"; };
+		0476F4EE29FCCA7B00E43204 /* WithUsersImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WithUsersImage.swift; sourceTree = "<group>"; };
+		0476F4F229FCCAA000E43204 /* ItineraryViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItineraryViewModel.swift; sourceTree = "<group>"; };
+		0476F4F429FCCAC200E43204 /* ItineraryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItineraryModel.swift; sourceTree = "<group>"; };
 		04EE121E29E5137D006D45C3 /* tona.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tona.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04EE122129E5137D006D45C3 /* tonaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tonaApp.swift; sourceTree = "<group>"; };
 		04EE122529E5137E006D45C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -58,12 +58,9 @@
 		A49CA0D029F4747900153BEC /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		A49CA0D229F4748500153BEC /* RectangleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleImage.swift; sourceTree = "<group>"; };
 		A49CA0D429F4749C00153BEC /* FindModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindModel.swift; sourceTree = "<group>"; };
-
+		A49CA11729F59A3600153BEC /* TextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldStyle.swift; sourceTree = "<group>"; };
 		AEFDEC1C29F4D94B0027ECB8 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		AEFDEC2029F606AE0027ECB8 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
-
-		A49CA11729F59A3600153BEC /* TextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldStyle.swift; sourceTree = "<group>"; };
-
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +77,7 @@
 		0423981D29EE3523005530AD /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				0423983C29F4691B005530AD /* ItineraryModel.swift */,
+				0476F4F429FCCAC200E43204 /* ItineraryModel.swift */,
 				0423983E29F4691B005530AD /* UserModel.swift */,
 				A49CA0D429F4749C00153BEC /* FindModel.swift */,
 			);
@@ -90,8 +87,9 @@
 		0423982E29F468AD005530AD /* Helper */ = {
 			isa = PBXGroup;
 			children = (
-				0423982F29F468AD005530AD /* WithUsersImage.swift */,
-				0423983029F468AD005530AD /* EventImage.swift */,
+				0476F4ED29FCCA7B00E43204 /* Colors.swift */,
+				0476F4EC29FCCA7B00E43204 /* EventImage.swift */,
+				0476F4EE29FCCA7B00E43204 /* WithUsersImage.swift */,
 				A49CA0D029F4747900153BEC /* SearchBar.swift */,
 				A49CA0D229F4748500153BEC /* RectangleImage.swift */,
 				A49CA11729F59A3600153BEC /* TextFieldStyle.swift */,
@@ -102,12 +100,12 @@
 		0423983329F468B8005530AD /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0476F4E629FCCA1A00E43204 /* EventRow.swift */,
+				0476F4E729FCCA1A00E43204 /* Itinerary.swift */,
+				0476F4E829FCCA1A00E43204 /* PlannedTrips.swift */,
 				AEFDEC1C29F4D94B0027ECB8 /* HomeView.swift */,
 				AEFDEC2029F606AE0027ECB8 /* HeaderView.swift */,
-				0423983429F468B8005530AD /* Event.swift */,
-				045133DD29F61D7E007B7CFD /* Trips.swift */,
 				0423983529F468B8005530AD /* FindView.swift */,
-				0423983629F468B8005530AD /* Itinerary.swift */,
 				0423983729F468B8005530AD /* ContentView.swift */,
 			);
 			path = View;
@@ -116,7 +114,7 @@
 		0423984229F46926005530AD /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				0423984329F46926005530AD /* ItineraryViewModel.swift */,
+				0476F4F229FCCAA000E43204 /* ItineraryViewModel.swift */,
 				A49CA0CE29F472BD00153BEC /* FindViewModel.swift */,
 			);
 			path = ViewModel;
@@ -234,30 +232,29 @@
 				046E68BC29EE323A0004F0B3 /* (null) in Sources */,
 				0423983929F468B8005530AD /* FindView.swift in Sources */,
 				0423982B29F44127005530AD /* (null) in Sources */,
+				0476F4EF29FCCA7B00E43204 /* EventImage.swift in Sources */,
 				0423982429EE3D30005530AD /* (null) in Sources */,
-				0423983A29F468B8005530AD /* Itinerary.swift in Sources */,
 				A49CA0CF29F472BD00153BEC /* FindViewModel.swift in Sources */,
-				0423983829F468B8005530AD /* Event.swift in Sources */,
-				0423983129F468AD005530AD /* WithUsersImage.swift in Sources */,
-
-				045133DE29F61D7E007B7CFD /* Trips.swift in Sources */,
-
 				A49CA11829F59A3600153BEC /* TextFieldStyle.swift in Sources */,
-				0423984429F46926005530AD /* ItineraryViewModel.swift in Sources */,
+				0476F4F529FCCAC200E43204 /* ItineraryModel.swift in Sources */,
+				0476F4EA29FCCA1A00E43204 /* Itinerary.swift in Sources */,
 				0423984129F4691B005530AD /* UserModel.swift in Sources */,
 				A49CA0D529F4749C00153BEC /* FindModel.swift in Sources */,
 				04EE122229E5137D006D45C3 /* tonaApp.swift in Sources */,
+				0476F4EB29FCCA1A00E43204 /* PlannedTrips.swift in Sources */,
 				A49CA0D329F4748500153BEC /* RectangleImage.swift in Sources */,
 				AEFDEC1D29F4D94B0027ECB8 /* HomeView.swift in Sources */,
 				AEFDEC2129F606AF0027ECB8 /* HeaderView.swift in Sources */,
 				0423982129EE3610005530AD /* (null) in Sources */,
-				0423983229F468AD005530AD /* EventImage.swift in Sources */,
 				0423983B29F468B8005530AD /* ContentView.swift in Sources */,
 				0423982629EE3EA0005530AD /* (null) in Sources */,
+				0476F4E929FCCA1A00E43204 /* EventRow.swift in Sources */,
+				0476F4F029FCCA7B00E43204 /* Colors.swift in Sources */,
 				A49CA0D129F4747900153BEC /* SearchBar.swift in Sources */,
 				0423982D29F446D3005530AD /* (null) in Sources */,
 				0423981F29EE353C005530AD /* (null) in Sources */,
-				0423983F29F4691B005530AD /* ItineraryModel.swift in Sources */,
+				0476F4F129FCCA7B00E43204 /* WithUsersImage.swift in Sources */,
+				0476F4F329FCCAA000E43204 /* ItineraryViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

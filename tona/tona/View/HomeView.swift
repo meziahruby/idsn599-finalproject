@@ -28,6 +28,9 @@ struct TopView: View {
 }
 
 struct HomeView: View {
+    
+    @EnvironmentObject var viewModel: ItineraryViewModel
+    
     var body: some View {
         ScrollView {
             VStack(alignment: .leading) {
@@ -41,11 +44,12 @@ struct HomeView: View {
                     .padding(.leading, 13.0)
                 HStack {
                     Spacer()
-                    LocaleView(image: "paris", title: "Paris")
+                    // Meziah's Note: I had to add itineraryData here as a parameter to fully enable the navigation
+                    LocaleView(image: "paris", title: "Paris", itineraryData: viewModel.itinerariesData[0])
                         .padding(.trailing, 100.0)
-                }
-                LocaleView(image: "nyc", title: "New York")
-                    .padding(.leading, 65.0)
+                    }
+                    LocaleView(image: "nyc", title: "New York", itineraryData: viewModel.itinerariesData[1])
+                        .padding(.leading, 65.0)
                 Spacer()
                     .frame(height: 60)
                 
@@ -53,11 +57,11 @@ struct HomeView: View {
                 .font(.largeTitle.weight(.medium))
                 .foregroundColor(Color(.sRGB, red: 235/255, green: 249/255, blue: 249/255))
                 .padding(.leading, 30.0)
-                LocaleView(image: "sedona", title: "Sedona")
+                LocaleView(image: "sedona", title: "Sedona", itineraryData: ItineraryModel(city: "sedona", dates: "", events: []))
                     .padding(.trailing, 100.0)
-                LocaleView(image: "finland", title: "Finland")
+                LocaleView(image: "finland", title: "Finland", itineraryData: ItineraryModel(city: "finland", dates: "", events: []))
                     .padding(.leading, 65.0)
-                LocaleView(image: "dubai", title: "Dubai")
+                LocaleView(image: "dubai", title: "Dubai", itineraryData: ItineraryModel(city: "dubai", dates: "", events: []))
                     .padding(.trailing, 100.0)
             }
         }
@@ -70,9 +74,11 @@ struct LocaleView: View {
     let image: String
     let title: String
     
+    var itineraryData: ItineraryModel
+    
     //goal was to link the "+" to the Itinerary page
     var body: some View {
-        NavigationLink(destination: Itinerary()) {
+        NavigationLink(destination: Itinerary(itinerary: itineraryData)) {
             ZStack {
                 Image(image)
                     .renderingMode(.original)

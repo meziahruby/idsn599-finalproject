@@ -12,45 +12,52 @@ import SwiftUI
 
 struct Itinerary: View {
     
-    @EnvironmentObject var viewModel: ItineraryViewModel
+    var itinerary: ItineraryModel
     
     var body: some View {
         ScrollView {
-            
             VStack {
                 HStack {
-                    Text("Paris")
-                        .font(.title2)
-                        .foregroundColor(Color(.sRGB, red: 235/255, green: 155/255, blue: 83/255))
+                    Text(itinerary.city).textCase(.uppercase)
+                        .font(Font(UIFont.systemFont(ofSize: 20, weight: .medium, width: .expanded)))
+                        .foregroundColor(tonaOrange)
                         .fixedSize(horizontal: false, vertical: true)
                     Spacer()
-                    Text("Back to Trips >")
-                        .foregroundColor(.blue)
                 }
                 .padding(.top, 25)
                 .padding(.horizontal)
+                
                 Text("Tuesday, May 2")
                     .frame(maxWidth: .infinity, alignment: .leading)
-                    .clipped()
                     .padding()
                     .font(.title.weight(.medium))
-                    .padding(.bottom)
-                    .foregroundColor(Color(.sRGB, red: 115/255, green: 233/255, blue: 227/255))
-                    VStack(spacing: 0) {
-                            ForEach(viewModel.events) { event in
-                                Event(event: event)
-                            }
-                            Text("- End of Day -")
-                                .foregroundColor(.gray)
+                    .foregroundColor(tonaBlue)
+                
+                VStack(spacing: 0) { // Remove space between Itinerary items so the timeline looks connected
+                    ForEach(itinerary.events) { event in
+                        EventRow(event: event)
+                    }
+                    Text("- End of Day -").foregroundColor(.gray)
                 }
             }
         }
-        .background(Color(.sRGB, red: 4/255, green: 27/255, blue: 21/255))
+        .background(tonaTeal)
     }
 }
 
 struct Itinerary_Previews: PreviewProvider {
     static var previews: some View {
-        Itinerary().environmentObject(ItineraryViewModel())
+        let itinerarySample =
+            ItineraryModel(
+                city: "paris",
+                dates: "",
+                events: [
+                    EventModel(
+                        name: "Louvre Museum",
+                        date: Date(timeIntervalSince1970: 1683043200), // May 2, 9am
+                        image: Image("paris"),
+                        withUsers: [UserModel(user: "Friend1"), UserModel(user: "howl"), UserModel(user: "Friend2")]
+                    )])
+        Itinerary(itinerary: itinerarySample)
     }
 }
